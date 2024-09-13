@@ -1,6 +1,6 @@
-'use client'
+"use client"
 
-import { UserPlus, MessageSquare, BookOpen } from 'lucide-react'
+import { UserPlus, MessageSquare, BookOpen } from "lucide-react"
 
 export default function HowItWorks() {
   const steps = [

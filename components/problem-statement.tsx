@@ -1,8 +1,8 @@
-'use client'
+"use client"
 
-import Link from 'next/link'
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Brain, Heart, Users } from 'lucide-react'
+import { ArrowRight, Brain, Heart, Users } from "lucide-react"
 
 export function ProblemStatement() {
   return (
@@ -13,7 +13,7 @@ export function ProblemStatement() {
             Why This Platform <span className="text-blue-400">Exists</span>
           </h2>
           <p className="max-w-[700px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Addressing the critical mental health challenges faced by today's college students
+            Addressing the critical mental health challenges faced by today&apos;s college students
           </p>
         </div>
         <div className="grid gap-8 md:grid-cols-3">

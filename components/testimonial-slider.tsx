@@ -1,6 +1,6 @@
-'use client'
+"use client"
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from "react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Card, CardContent } from "@/components/ui/card"
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react"
@@ -14,17 +14,17 @@ const testimonials = [
   {
     name: "Ritu",
     avatar: "/placeholder.svg?height=40&width=40",
-    content: "I've tried many online learning platforms, but this one stands out. The community support and expert-led courses are unparalleled.",
+    content: "I&apos;ve tried many online learning platforms, but this one stands out. The community support and expert-led courses are unparalleled.",
   },
   {
     name: "Shilpa",
     avatar: "/placeholder.svg?height=40&width=40",
-    content: "The flexibility of this platform allowed me to balance my studies with work. I've gained valuable skills that have advanced my career.",
+    content: "The flexibility of this platform allowed me to balance my studies with work. I&apos;ve gained valuable skills that have advanced my career.",
   },
   {
     name: "Akhilesh",
     avatar: "/placeholder.svg?height=40&width=40",
-    content: "The quality of content and the intuitive interface make learning enjoyable. I've recommended this platform to all my colleagues.",
+    content: "The quality of content and the intuitive interface make learning enjoyable. I&apos;ve recommended this platform to all my colleagues.",
   },
 ]
 
@@ -84,7 +84,7 @@ export default function TestimonialSliderComponent() {
               key={index}
               onClick={() => setCurrentIndex(index)}
               className={`w-3 h-3 mx-1 rounded-full focus:outline-none ${
-                index === currentIndex ? 'bg-gray-300' : 'bg-gray-600'
+                index === currentIndex ? "bg-gray-300" : "bg-gray-600"
               }`}
               aria-label={`Go to testimonial ${index + 1}`}
             />

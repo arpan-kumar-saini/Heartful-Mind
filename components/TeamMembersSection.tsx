@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import { Card, CardContent } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
@@ -26,7 +26,7 @@ const teamMembers = [
     name: "Akhilesh",
     role: "Mental Health Expert",
     image: "/placeholder.svg?height=100&width=100",
-    note: "Brings years of experience in psychology to ensure our app's effectiveness.",
+    note: "Brings years of experience in psychology to ensure our app&apos;s effectiveness.",
   },
 ]
 

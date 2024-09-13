@@ -125,7 +125,7 @@ export function chatbot() {
               <div className="font-bold">You</div>
               <div className="prose text-muted-foreground">
                 <p>
-                  I've been feeling really stressed and anxious lately. Can you help me find some coping strategies?
+                  I&apos;ve been feeling really stressed and anxious lately. Can you help me find some coping strategies?
                 </p>
               </div>
             </div>
@@ -139,7 +139,7 @@ export function chatbot() {
               <div className="font-bold">Mental Health Support</div>
               <div className="prose text-muted-foreground">
                 <p>
-                  I'm sorry to hear you've been feeling stressed and anxious. That can be really tough to deal with.
+                  I&apos;m sorry to hear you&apos;ve been feeling stressed and anxious. That can be really tough to deal with.
                   Here are some coping strategies that may help:
                 </p>
                 <ul>
@@ -149,7 +149,7 @@ export function chatbot() {
                   <li>Talk to a trusted friend or family member</li>
                   <li>Consider seeking professional help if the anxiety persists</li>
                 </ul>
-                <p>Let me know if you have any other questions or if there's anything else I can do to help.</p>
+                <p>Let me know if you have any other questions or if there&apos;s anything else I can do to help.</p>
               </div>
               <div className="flex items-center gap-2 py-2">
                 <Button
